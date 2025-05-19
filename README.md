@@ -48,8 +48,10 @@ A **content-based movie recommender system** built using **Python** and **Stream
 
    [Download the file using this link](https://drive.google.com/file/d/1lI64w0WwHN2SWI5kNrmufp_Ys_qpzaZs/view?usp=sharing)
 
+   - Place it inside the `model/` directory or load dynamically in the code.
+
    
-4. **Run the application:
+5. **Run the application:
 
    ```bash
    streamlit run app.py
