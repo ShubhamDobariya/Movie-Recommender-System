@@ -44,7 +44,7 @@ A **content-based movie recommender system** built using **Python** and **Stream
    ```bash
    pip install -r requirements.txt
 
-3. **Download similarity.pkl from Google Drive:
+3. **Download `similarity.pkl` from Google Drive:
 
    [Download the file using this link](https://drive.google.com/file/d/1lI64w0WwHN2SWI5kNrmufp_Ys_qpzaZs/view?usp=sharing)
 
