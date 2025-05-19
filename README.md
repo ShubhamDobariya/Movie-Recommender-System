@@ -55,3 +55,23 @@ A **content-based movie recommender system** built using **Python** and **Stream
 
    ```bash
    streamlit run app.py
+
+---
+
+## 🔗 Google Drive Model Integration
+The large model file `similarity.pkl` (~180 MB) is hosted on Google Drive due to GitHub's 100MB file size limit. It's dynamically downloaded when the app starts.
+
+---
+
+## 🔐 TMDB API Key Setup
+To fetch posters:
+
+   1. Create an account on TMDB.
+
+   2. Go to Settings → API and generate an API key.
+
+   3. Replace the API key in the code:
+
+      ```bash
+      url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key=YOUR_API_KEY&language=en-US"
+
